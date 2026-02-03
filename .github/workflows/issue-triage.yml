@@ -4,6 +4,10 @@ on:
   issues:
     types: [opened, edited, closed, reopened, deleted]
 
+permissions:
+  issues: write
+  contents: read
+
 jobs:
   call-simili-workflow:
     uses: similigh/simili-shared-config/.github/workflows/simili.yml@main

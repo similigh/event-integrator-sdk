@@ -1,0 +1,4 @@
+extends: "similigh/simili-shared-config@main"
+
+defaults:
+  similarity_threshold: 0.75 # Override default

@@ -14,5 +14,3 @@ jobs:
       QDRANT_URL: ${{ secrets.QDRANT_URL }}
       QDRANT_API_KEY: ${{ secrets.QDRANT_API_KEY }}
       TRANSFER_TOKEN: ${{ secrets.TRANSFER_TOKEN }}
-      SIMILI_APP_ID: ${{ secrets.SIMILI_APP_ID }}
-      SIMILI_PRIVATE_KEY: ${{ secrets.SIMILI_PRIVATE_KEY }}

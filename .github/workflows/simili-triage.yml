@@ -2,7 +2,7 @@ name: Simili Bot Triage
 
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, closed, reopened, deleted, transferred]
   issue_comment:
     types: [created]
 
